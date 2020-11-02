@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  div.jumbotron
+    h1= title
+    p Sådan gør vi...
+    ol 
+      li Installer sequelize og sequlize-cli
+      li Initialise sequelize <pre>node_modules/.bin/sequelize init </pre>
+      li Opsat DB (connection string) --> rediger config/config.json
+      li Lav models <pre>node_modules/.bin/sequelize model:generate --name User --attributes firstName:string,lastName:string,phone:string,email:string </pre>
+      li Kør migration <pre>node_modules/.bin/sequelize db:migrate</pre>
+      li (Hvis du skal lave om på noget, skal du lave en ny model og / eller bruge <pre>db:migrate:undo</pre>)
+      li Lav seed pg rediger den --> <pre>node_modules/.bin/sequelize seed:generate --name seed-Role</pre>
+      li Kør seeding kommandoen <pre>node_modules/.bin/sequelize db:seed:all</pre>
+
+    h1 Data fra databasen
+    p #{data}
+
+    
+

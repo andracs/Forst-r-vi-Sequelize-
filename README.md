@@ -2,7 +2,7 @@
 
 En dummy projekt, som viser, hvordan du kan tilføje Sequelize til en express applikation. 
 
-Baseret på denne tutorial: https://stackabuse.com/using-sequelize-js-and-sqlite-in-an-express-js-app/ 
+Baseret på denne tutorial: https://stackabuse.com/using-sequelize-js-and-sqlite-in-an-express-js-app/ og "Migrations" afsnittet i Sequelize dokumentation https://sequelize.org/master/manual/migrations.html  
 
 
 ## Husk at køre følgende kommandoer, hvis du vil have det til at virke

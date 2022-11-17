@@ -1,6 +1,6 @@
 # Forstår vi Sequelize?
 
-En dummy projekt, som viser, hvordan du kan tilføje Sequelize til en express applikation. 
+Et dummyprojekt, som viser, hvordan du kan tilføje Sequelize til en Express applikation. 
 
 Baseret på denne tutorial: https://stackabuse.com/using-sequelize-js-and-sqlite-in-an-express-js-app/ og "Migrations" afsnittet i Sequelize dokumentation https://sequelize.org/master/manual/migrations.html  
 
